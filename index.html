@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ui challenge 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><h1>UI challenge: Custom Form Elements</h1></header>
+    <main>
+        <form>
+            <label for="text-input">text input</label>
+            <input name="text-input" type="text" placeholder="placeholder text">
+            <label class="val-fail" for="text-input with validation error">text input with validation error</label>
+            <input class="val-fail" name="text-input with validation error" type="text" placeholder="placeholder text">
+            <p class="error">please enter a valid username</p>
+            <div class="whitespace"></div>
+            <label for="select-box1">select box
+                <select name="select-box1" id="select-box1">
+                    <option value="default">please select and option ...</option>
+                </select>
+            </label>
+            <label for="select-box2">select box</label>
+            <select name="select-box2" id="select-box2">
+                <option value="default">please select and option ...</option>
+            </select>
+            <ul class="options">
+                <li>option 1</li>
+                <li>option 2</li>
+                <li>option 3</li>
+                <li>option 4</li>
+                <li>option 5</li>
+            </ul>
+            <label>check box</label>
+            <label>radio</label>
+            <label>buttons</label>
+        </form>
+    </main>
+    
+</body>
+</html>
