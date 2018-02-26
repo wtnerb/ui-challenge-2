@@ -95,3 +95,18 @@ select {
     top: -62px;
     border: 0;
 }
+
+.check{
+    background-image: url("form-elements-sprite.png");
+    background-repeat: no-repeat;
+    background-size: 420px;
+    background-position-x: -95px;
+    background-position-y: -75px;
+    height: 75px;
+    width: 70px;
+    float: left;
+    left: 568px;
+    top: -62px;
+    border: 0;
+    margin-right: 15px;
+}
