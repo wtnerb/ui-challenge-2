@@ -58,7 +58,7 @@ li {
 
 .options {
     list-style: none;
-    margin-top: -1.7em;
+    margin-top: -3.5em;
     margin-left: -2em;
 }
 
@@ -73,6 +73,20 @@ select {
     background-repeat: no-repeat;
     background-size: 420px;
     background-position-x: -325px;
+    background-position-y: -75px;
+    height: 27px;
+    width: 33px;
+    position: relative;
+    left: 568px;
+    top: -62px;
+    border: 0;
+}
+
+.up-arrow {
+    background-image: url("form-elements-sprite.png");
+    background-repeat: no-repeat;
+    background-size: 420px;
+    background-position-x: -295px;
     background-position-y: -75px;
     height: 27px;
     width: 33px;
